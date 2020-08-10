@@ -1,0 +1,40 @@
+.menu {
+    width: 100%;
+    padding: 0 0.5% 0 0.5%;
+    border-bottom: 1px solid gray;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.logo {
+    width: 10%;
+    height: auto;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav li{
+    display: inline-flex;
+    color: $purple;
+    list-style-type: disc;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.input-menu {
+    border-radius: 30px;
+}

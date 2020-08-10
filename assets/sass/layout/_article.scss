@@ -1,0 +1,13 @@
+.listado-noticias {
+    @media (min-width: 800px) {
+        width: 80%;
+        }
+    @media (max-width: 799px) {
+        width: 100%;
+            }
+    height: auto;
+
+    padding-right: 2.5%;  
+    padding-left: 2.5%;
+    padding-bottom: 3%;
+}

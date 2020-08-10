@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.main{
+
+    @media (min-width: 800px) {
+        width: 80vw;
+        margin: 0 10vw 0 10vw;
+        }
+    @media (max-width: 799px) {
+        width: 90vw;
+        margin: 0 5vw 0 5vw;
+
+            }
+    height: auto;
+
+
+
+}
+.contenido {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2% 0 2%;
+}
